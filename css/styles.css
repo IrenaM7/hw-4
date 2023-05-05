@@ -148,10 +148,25 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero {
   padding: 188px 0;
+
+  height: 600px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   background-color: var(--title-text-color);
 }
@@ -187,6 +202,28 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+.section-foto::before {
+  display: block;
+  content: "";
+
+  height: 112px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f4f4fd;
+}
+.section-foto:nth-child(1)::before {
+  background-image: url(../images/icons.svg/antenna.svg);
+}
+.section-foto:nth-child(2)::before {
+  background-image: url(../images/icons.svg/clock\ 1.svg);
+}
+.section-foto:nth-child(3)::before {
+  background-image: url(../images/icons.svg/diagram\ 1.svg);
+}
+.section-foto:nth-child(4)::before {
+  background-image: url(../images/icons.svg/astronaut\ 1.svg);
+}
 
 .section .title {
   margin-top: 0;
@@ -201,7 +238,7 @@ img {
 }
 
 .section-subject {
-  margin-top: 0;
+  margin-top: 8px;
   margin-bottom: 8px;
 
   color: var(--title-text-color);
@@ -227,6 +264,10 @@ img {
 .doing {
   width: calc((100% - 48px) / 3);
 }
+.section.what {
+  padding-top: 0px;
+  padding-bottom: 120px;
+}
 
 /* sektion Our Team(наша команда) */
 .list.team {
@@ -235,29 +276,32 @@ img {
   margin-bottom: 0;
   padding-left: 0;
 }
-.section-foto {
-  background-color: var(--primary-white-color);
-}
-.section-text {
-  margin-bottom: 32px;
+
+.team-text {
+  margin-top: 0px;
+  margin-bottom: 8px;
   text-align: center;
-}
-.team .title {
-  padding-top: 120px;
-}
-.section-subject {
-  margin-top: 32px;
 }
 
 .team {
   background-color: var(--accent-cloud-color);
 }
-.section-foto {
+.team-foto {
+  background-color: var(--primary-white-color);
+
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .teams {
   padding: 32px 16px;
+}
+.team-subject {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 /* sektion footer */
 .footer {
@@ -280,6 +324,11 @@ footer {
 }
 
 /* страница portfolio */
+.page.pr {
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
 .portsection {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -321,6 +370,8 @@ footer {
   border: 1px solid transparent;
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .link .project {
   margin-bottom: 8px;
