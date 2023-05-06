@@ -410,14 +410,12 @@ border-color: #404bbf;
 }
 .footer-logo,
 
-.footer-text-soc {
-  color: var(--accent-cloud-color);
-}
+
 .footer-text {
   width: 264px;
   margin-top: 0px;
   margin-bottom: 16px;
-  color: #ffff;
+  color:var(--accent-cloud-color);
 }
 .soc{
   height: 24px;
@@ -434,6 +432,7 @@ border-color: #404bbf;
  line-height: 1.5;
  letter-spacing: 0.02em;
  margin-bottom: 16px;
+ color:var(--primary-white-color);
 }
 
 /* страница portfolio */
