@@ -342,7 +342,7 @@ img {
 }  
 .clt{
   width: 100%;
-  height: 100%;
+  height: 100%;f
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
@@ -351,12 +351,16 @@ img {
   color: #8e8f99;
   cursor: pointer;
 }
-.clt:hover,
-.clt:focus{
+.clt:hover{
 color: #404bbf;
 border-color: #404bbf;
 
 }  
+.clt:focus{
+  color: #404bbf;
+  border-color: #404bbf;
+
+}
 .clts{
   fill: currentColor;
 } 
