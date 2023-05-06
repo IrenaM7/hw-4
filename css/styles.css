@@ -381,6 +381,11 @@ border-color: #404bbf;
 
 }       
 /* sektion footer */
+.footer-cont{
+  gap:120px;
+}
+  
+
 .foot{
   display: flex;
   align-items: baseline;
@@ -404,14 +409,15 @@ border-color: #404bbf;
   align-items: baseline;
 }
 .footer-logo,
-.footer-text,
+
 .footer-text-soc {
   color: var(--accent-cloud-color);
 }
 .footer-text {
   width: 264px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
+  color: #ffff;
 }
 .soc{
   height: 24px;
