@@ -270,7 +270,11 @@ img {
 .socials.list{
   gap: 24px;
   padding-left: 0px;
+  justify-content: center;
   
+}
+.socials-icons{
+  fill: #f4f4fd;
 }
 
 
