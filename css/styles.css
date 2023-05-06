@@ -159,7 +159,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-      to right,
+      
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -187,7 +187,7 @@ body {
 
 /* sektion feature */
 .antenna{
-  background-color: var(--accent-cloud-color);
+  background-color:var(--accent-cloud-color);
   
   width: 264px;
   height: 112px;
@@ -197,6 +197,7 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
+  border-radius: 4px;
   
 }
 img {
@@ -353,8 +354,10 @@ img {
   gap: 120px;
 }
 
-footer {
+.footer {
   background-color: var(--title-text-color);
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo,
 .footer-text {
@@ -374,9 +377,16 @@ footer {
   gap: 16px;
   padding-left: 0px;
 }
+.footer-text-soc{
+ font-weight: 500;
+ font-size: 16px; 
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ margin-bottom: 16px;
+}
 
 /* страница portfolio */
-.page.pr {
+.page {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
