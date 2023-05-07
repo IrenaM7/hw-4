@@ -389,11 +389,21 @@ border-color: #404bbf;
   display: block;
   margin-bottom: 16px;
 }
-.socials-link.link:focus,
-.socials-link.link:hover{
+.socials-links.links:focus,
+.socials-links.links:hover{
   background-color: var(--color-green);
 }
-  
+
+.socials-links.links{
+  width: 100%;
+  height: 100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color:var(--accent-color) ;
+}
 
 .foot{
   display: flex;
