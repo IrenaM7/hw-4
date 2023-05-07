@@ -382,7 +382,12 @@ border-color: #404bbf;
 }       
 /* sektion footer */
 .footer-cont{
-  gap:120px;
+  display: block;
+  margin-right: 120px;
+}
+.footer-cont-soc{
+  display: block;
+  margin-bottom: 16px;
 }
   
 
