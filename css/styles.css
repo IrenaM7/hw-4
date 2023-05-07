@@ -389,6 +389,10 @@ border-color: #404bbf;
   display: block;
   margin-bottom: 16px;
 }
+.socials-link.link:focus,
+.socials-link.link:hover{
+  background-color: var(--color-green);
+}
   
 
 .foot{
@@ -414,8 +418,6 @@ border-color: #404bbf;
   align-items: baseline;
 }
 .footer-logo,
-
-
 .footer-text {
   width: 264px;
   margin-top: 0px;
