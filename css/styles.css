@@ -349,6 +349,7 @@ img {
 .clients{
   gap: 24px;
   display: flex;
+  padding-left: 0;
 }  
 .clt{
   width: 100%;
