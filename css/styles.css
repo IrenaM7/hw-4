@@ -423,8 +423,9 @@ border-color: #404bbf;
   color:var(--accent-cloud-color);
 }
 .soc{
-  height: 24px;
-  width: 24px;
+fill: var(--accent-cloud-color);
+
+
 }
 .footer-soc{
   display: flex;
@@ -437,6 +438,7 @@ border-color: #404bbf;
  line-height: 1.5;
  letter-spacing: 0.02em;
  margin-bottom: 16px;
+ margin-top: 0;
  color:var(--primary-white-color);
 }
 
