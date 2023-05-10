@@ -51,6 +51,16 @@ body {
 .link {
   text-decoration: none;
 }
+.site-nav.link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  
+  letter-spacing: 0.02em;
+}
 
 .logo {
   display: inline-block;
@@ -195,7 +205,7 @@ border-bottom: 1px solid #e7e9fc;
   
   width: 264px;
   height: 112px;
-  outline: 1px solid red;
+  
 
 
   justify-content: center;
@@ -432,8 +442,14 @@ border-color: #404bbf;
 .footer-text {
   width: 264px;
   margin-top: 0px;
-  margin-bottom: 16px;
+  
   color:var(--accent-cloud-color);
+}
+.footer-logo{
+  margin-bottom: 17.5px;
+}
+.footer-text{
+  margin-bottom: 0;
 }
 .soc{
 fill: var(--accent-cloud-color);
@@ -444,6 +460,7 @@ fill: var(--accent-cloud-color);
   display: flex;
   gap: 16px;
   padding-left: 0px;
+  margin: 0;
 }
 .footer-text-soc{
  font-weight: 500;
@@ -476,7 +493,7 @@ fill: var(--accent-cloud-color);
 .list.buttons {
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
+  
   margin-bottom: 72px;
   padding-left: 0;
 }
